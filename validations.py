@@ -1,3 +1,5 @@
+# This module contains validation functions for user input.
+
 def name_validation():
     """Validates the name input from the user. The name should only contain alphabetic characters."""
     name = input("Enter your name: ")
