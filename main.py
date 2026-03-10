@@ -11,4 +11,5 @@ def main():
     print(f"Product: {product_info['name']} | Price: {product_info['price']} | Quantity: {product_info['quantity']} | Total Cost: {total_cost}")
 
 if __name__ == "__main__":
+    """Run the main function when the script is executed."""
     main()
