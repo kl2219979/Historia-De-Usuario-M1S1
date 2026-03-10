@@ -2,7 +2,7 @@
 
 def name_validation():
     """Validates the name input from the user. The name should only contain alphabetic characters."""
-    name = input("Enter your name: ")
+    name = input("Enter the product name: ")
     if not name.isalpha():
         print("Invalid name. Please enter a valid name.")
         return name_validation()
